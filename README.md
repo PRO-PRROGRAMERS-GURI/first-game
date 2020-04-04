@@ -1,6 +1,8 @@
 # first-game
 hi
-nothing was added
+we use:
+time.py
+pygame
 
 
 What we need to do
