@@ -5,18 +5,22 @@ def manu():
     new = input('')
     if new == "new game":
         print('test')
-        #put here start thing
+        #pot new game stats here
     elif new == "load game":
         #saves here
         #check if he has saves
         print('Test')
 def name():
-        while playerName != 'guri' or 'sans' or 'pip':
-            name = input('enter your name here ')
-            if name == "guri":
-                print('this name is alredy taken')
-            if name == "sans":
-                print('this name is alredy taken')
-            if name == "pip":
-                print('this name is alredy taken')
+    playerName = input('enter your name here ')
+    if playerName == "guri":
+        print('this name is alredy taken')
+        name()
+    if playerName == "sans":
+        print('this name is alredy taken')
+        name()
+    if playerName == "pip":
+        print('this name is alredy taken')
+        name()
+
+
 manu()
