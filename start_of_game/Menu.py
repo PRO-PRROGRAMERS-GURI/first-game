@@ -63,6 +63,7 @@ def newGame():
     fitness = 0
     playerName=""
     playerJob='nothing'
+    own staff = ""
 
         
 
