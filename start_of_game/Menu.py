@@ -6,13 +6,7 @@ def manu():
     selective = input('')
     #new game | starts the game
     if selective == "New game":
-        def newGame():
-            nomey = 200
-            happiness = 0
-            education = 0
-            fitness = 0
-            playerName=""
-
+        new game()
         #Credits | shows Credits
     elif selective == "Credits":
         print('''
@@ -61,6 +55,14 @@ def name():
     if len(playerName) >= 10:
         print('wait thats to much')
         name()
+#new game
+def newGame():
+    nomey = 200
+    happiness = 0
+     education = 0
+    fitness = 0
+    playerName=""
+    playerJob='nothing'
 
         
 
