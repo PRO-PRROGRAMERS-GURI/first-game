@@ -1,7 +1,20 @@
-def manu():
-    def name():
+load=""
+def manu(): 
+    name()
+    print("press enter on the option you want to select")
+    new = input('')
+    
+    if new == "new game":
+        print('test')
+        #put here start thing
+    elif new == "load game":
+        #saves here
+        #check if he has saves
+        print('Test')
+def name():
+        #has probleme
         name = input('enter your name here ')
-        if name == "Guri":
+        if name == "guri":
             print('this name is alredy taken')
             name()
         if name == "sans":
@@ -10,15 +23,4 @@ def manu():
         if name == "pip":
             print('this name is alredy taken')
             name()
-            
-    print("press enter on the option you want to select")
-    new = input('New Game')
-    if new == "":
-        #put here start thing
-
-
-    load = input('Load')
-    if load == "":
-        #saves here
-    manu()
-    
+manu()
