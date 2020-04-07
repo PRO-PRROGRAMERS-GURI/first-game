@@ -1,12 +1,13 @@
 import time
-playerName=""
 def manu(): 
     #selection of type
     print("enter New game, Credits, Quit(caps required for all of them)")
     selective = input('')
     #new game | starts the game
     if selective == "New game":
-        new game()
+        newGame()
+        backstory()
+        name()
         #Credits | shows Credits
     elif selective == "Credits":
         print('''
@@ -22,14 +23,13 @@ def manu():
         print('BUH BYE GAME')
     #if its not quit credits or new game | Debuger
     else:
-        print('yea i dear you to do it agian')
+        print('yea i dare you to do it agian')
         manu()
-    name()
 #backstory
 defalt_time = 3
 #defalt_time is the time btween prints
 def backstory():
-    print("so you are a man who lived at zolmak city all his life untill you reched the age of 18 ")
+    print("so you are a man who lived at zolmak city all his life untill you reched the age of 18... ")
     time.sleep(defalt_time)
     print("then you left your family to have a fresh start...")
     time.sleep(defalt_time)
@@ -37,7 +37,6 @@ def backstory():
     time.sleep(defalt_time)
     #backStory() just print the back story with "defalt_time" as the time btween prints
     # you can add to the backStoy as much as you want 
-backstory()
 #Name system
 def name():
     playerName = input('enter your name here ')
@@ -59,11 +58,12 @@ def name():
 def newGame():
     nomey = 200
     happiness = 0
-     education = 0
+    education = 0
     fitness = 0
     playerName=""
     playerJob='nothing'
-    own staff = ""
+    stuff = ""
+    playerName=""
 
         
 
