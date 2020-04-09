@@ -5,6 +5,5 @@ time.py
 pygame
 
 
-What we need to do
-
+What we need to do:
 https://trello.com/b/hcsAbjxW/game
