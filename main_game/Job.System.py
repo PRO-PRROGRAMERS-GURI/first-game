@@ -1,6 +1,6 @@
-intelegens = 999
-fitness = 1
-xp = 99
+intelegens = 0
+fitness = 0
+xp = 0
 time = 8
 def jobsystem(time_left):
     job_apply = input('want a job? ')
