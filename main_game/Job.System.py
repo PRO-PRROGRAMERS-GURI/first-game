@@ -1,8 +1,10 @@
-intelegens = 0
-fitness = 0
-xp = 0
-def jobsystem():
+intelegens = 999
+fitness = 1
+xp = 99
+time = 8
+def jobsystem(time_left):
     job_apply = input('want a job? ')
+    time = time_left
     if job_apply == 'yes':
         time = time - 1
         job = input('''
@@ -55,9 +57,9 @@ def jobsystem():
             print("you don't have enogh work xp")
     else:
         print('try agian no job like that or you used capslock it wouldnt')
-        jobsystem()
+        jobsystem(8)
 
 
-jobsystem()
+jobsystem(8)
 
 
