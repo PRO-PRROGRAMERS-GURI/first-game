@@ -1,8 +1,8 @@
 # first-game
-hi
+hi me code ok poke?
 we use:
 time.py
-pygame
+
 
 
 What we need to do:
