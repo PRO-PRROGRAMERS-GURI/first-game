@@ -1,6 +1,6 @@
+intelegens = 0
+fitness = 0
 def jobsystem():
-    intelegens = 0
-    fitness = 0
     job_apply = input('want a job? ')
     if job_apply == 'yes':
         job = input('''
