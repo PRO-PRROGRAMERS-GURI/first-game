@@ -41,14 +41,15 @@ def backstory():
 def name():
     playerName = input('enter your name here ')
     if playerName == "guri":
-        print('this name is alredy taken')
+        print('there could be only one')
         name()
     if playerName == "sans":
-        print('this name is alredy taken')
+        print('nope')
         name()
     if playerName == "pip":
-        print('this name is alredy taken')
-
+        print('pip install.this name is alredy taken')
+    else:
+        name = name
     
 
     if len(playerName) >= 10:
