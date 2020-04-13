@@ -38,6 +38,8 @@ def mcdonalds(money):
     elif BUY == "no":
         print("ok bye")
         #run main Screen
-    else: print("plz select somefing from that we have here")
+    else:
+         print("plz select somefing from that we have here")
+         mcdonalds(money)
 money=200
 mcdonalds(money)
