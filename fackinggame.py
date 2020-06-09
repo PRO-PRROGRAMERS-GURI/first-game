@@ -1,3 +1,5 @@
+#btw this code do not work
+
 import time
 def manu(): 
     #selection of type
