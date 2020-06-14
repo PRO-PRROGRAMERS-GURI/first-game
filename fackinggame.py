@@ -1,7 +1,6 @@
 #btw this code do not work
 # export / inport probleme in function
 
-
 import time
 def manu(): 
     #selection of type
